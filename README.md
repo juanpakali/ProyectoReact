@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Proyecto de React donde se consume un API de Pokedex y un API de WheaterMap 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
