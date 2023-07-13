@@ -1,0 +1,256 @@
+* {
+  margin: 0px;
+}
+
+nav {
+  height: 170px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background: linear-gradient(#F68084 , #A6C0FE);
+}
+
+.navBar {
+  background: linear-gradient(#8586E8, #3E3F95 );
+  width: 15%;
+  height: 80%;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+}
+
+.navBar2 {
+  width: 100%;
+  height: 80%;
+  border-radius: 20px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container-clima-city {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-clima {
+  border-radius: 20px;
+  width: 60px;
+  height: 50%;
+  align-items: center;
+}
+
+.clima-dia {
+  background-color: #353577;
+  width: 50px;
+  height: 20px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.clima-text {
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+  font-size: 15px;
+  color: white;
+}
+
+.text-Grados {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 15px;
+  color: white;
+}
+
+.text-Grados-temp {
+  font-family: 'Trebuchet MS','Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+  font-size: 0.8rem;
+  
+}
+
+.navbar-image {
+  width: 180px;
+}
+
+.searchbar-container {
+  display: flex;
+  margin: 0px 10px;
+  padding: 0;
+  align-items: center;
+  flex: 1;
+  align-items: stretch;
+}
+
+.searchbar {
+  background: white;
+  padding-right: 20px;
+  flex: 1;
+  width: 50%;
+}
+
+.searchbar input {
+  padding: 15px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  border: none;
+  width: 100%;
+}
+
+.searchbar input:focus {
+  outline: none;
+}
+
+.searchbar-btn button {
+  background-color: #363636;
+  border: none;
+  border-radius: 10px;
+  height: 100%;
+  color: white;
+  padding: 10px 12px;
+  margin-left: 20px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.pokedex-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 18px;
+  padding: 0px 10px 20px 10px;
+}
+
+@media screen and (max-width: 992px) {
+  .pokedex-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .pokedex-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.pokemon-card {
+  display: flex;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+}
+
+.pokemon-img-container {
+  padding: 0px 5px;
+}
+
+.pokemon-img {
+  width: 70px;
+  height: 70px;
+}
+
+.pokemon-type {
+  display: flex;
+}
+
+.pokemon-type-text {
+  margin-right: 10px;
+  text-transform: capitalize;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 10px 10px 10px;
+  flex: 1;
+}
+
+.card-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-top h3 {
+  text-transform: capitalize;
+}
+
+.pagination {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.App {
+  font-family: sans-serif;
+  background-color: #A6C0FE;
+}
+
+.icon {
+  width: 28px;
+  height: 28px;
+}
+
+.pagination-btn {
+  background-color: black;
+  border: none;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  margin: 0px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.pokemon-heart-btn {
+  border: none;
+  background-color: #f0f0f0;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.25);
+  padding: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.not-found-text {
+  text-align: center;
+  font-size: 1.25rem;
+  padding: 20px;
+}
+
+footer {
+  font-family: inherit;
+  background-color: #3E3F95;
+  padding: 15px;
+  color: white;
+  text-align: center;
+  font-size: 1.1rem;
+ 
+}
+
+footer a {
+  color: #e58112;
+}
+
+.redes-sociales{
+  justify-content:space-evenly;
+  display: flex;
+}
