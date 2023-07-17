@@ -1,6 +1,6 @@
 import React, {useContext} from "react";
 import FavoriteContext from "../contexts/favoritesContext";
-import OpenWeatherMap from "../Clima/OpenWeatherMap"
+import OpenWeatherMap from "./Clima/OpenWeatherMap"
 
 const Navbar = () => {
   const { favoritePokemons } = useContext(FavoriteContext);

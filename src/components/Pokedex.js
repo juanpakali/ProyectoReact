@@ -1,5 +1,5 @@
 import React from "react";
-import Pagination from "../Funciones/Pagination";
+import Pagination from '../components/Funciones/Pagination'
 import Pokemon from "./Pokemon";
 import Spinner from "../Utils/Spinner";
 

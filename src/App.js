@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import '../src/Styles/App.css';
 import Navbar from './components/Navbar'
-import Searchbar from './Funciones/Search';
+import Searchbar from './components/Funciones/Search';
 import Pokedex from './components/Pokedex';
 import { getPokemonData, getPokemons, searchPokemon } from './Services/PokeApi/api';
 import { FavoriteProvider } from "./contexts/favoritesContext";

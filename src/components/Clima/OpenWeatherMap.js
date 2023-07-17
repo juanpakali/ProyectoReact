@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import Spinner from '../Utils/Spinner';
-import { getWeatherData } from '../WheaterApi/ClimaApi';
+import Spinner from '../../Utils/Spinner';
+import { getWeatherData } from '../../Services/WheaterApi/ClimaApi'
 
 let urlImg = "https://static.vecteezy.com/system/resources/thumbnails/024/984/124/small/3d-weather-forecast-icons-summer-sun-with-thunderstorm-and-strong-wind-3d-illustration-png.png"
 
